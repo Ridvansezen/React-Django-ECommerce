@@ -1,0 +1,148 @@
+html {
+  scroll-behavior: smooth;
+}
+
+
+.mt-50{
+
+    margin-top: 50px;
+  }
+  
+  .mb-50{
+  
+    margin-bottom: 50px;
+  }
+  
+  .card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .1875rem;
+  }
+  
+  .product-title
+  {
+    color: #008cba;
+    font-weight: 800;
+  
+  }
+  .mb-10
+  {
+    margin-bottom: 10px;
+  }
+
+  .product-category
+  {
+    font-size: 14px;
+  }
+  
+  .card-img-actions {
+    position: relative;
+  }
+  .card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+    text-align: center;
+    
+  }
+  
+  .addtocart-button {
+    background-color: #004cda !important;
+    border-radius: 50px !important;
+    padding: 10px !important;
+    width: 200px !important;
+    transition: 0.3s !important;
+    -webkit-font-smoothing: subpixel-antialiased;
+  }
+
+  .addtocart-button:hover {
+    scale: 1.1;
+    -webkit-font-smoothing: subpixel-antialiased;
+    opacity: 0.86;
+  }
+
+  .addtocart-button-detail {
+    background-color: #004cda !important;
+    border-radius: 50px !important;
+    padding: 10px !important;
+    width: 200px !important;
+    transition: 0.3s !important;
+    -webkit-font-smoothing: subpixel-antialiased;
+    margin-top: 230px;
+    padding-top: 30px;
+    position: absolute;
+  }
+  
+  .addtocart-button-detail:hover {
+    scale: 1.1;
+    -webkit-font-smoothing: subpixel-antialiased;
+    opacity: 0.86;
+  }
+
+  .price-detail {
+    position: absolute;
+    margin-top: 200px;
+    list-style: none;
+    font-size: 32px;
+    padding-bottom: 40px;
+  }
+
+  .card-img{
+  
+    width: 350px;
+  }
+  
+  .star{
+        color: #dbc42b;
+  }
+  
+  .nav-color
+  {
+    color: #ffffff !important;
+    transition:0.3s;
+    will-change: scale;
+  }
+  .nav-color:hover
+  {
+    color: #ffffff !important;
+    transition:0.3s;
+    scale: 1.1;
+  }
+
+  .bg-color {
+    background: #004cda !important;
+  }
+
+  .d-flex {
+    caret-color: #004cda;
+  }
+
+  .alert {
+    background-color: red !important ;
+    opacity: 0.8 !important;
+  }
+
+  .cart-image {
+    position: relative !important;
+    width: 80px !important;
+
+  }
+
+  .disabled-message {
+    position: absolute !important;
+    margin-top: 100px;
+    background-color: red !important ;
+    opacity: 0.8 !important;
+    color: #fff;
+    padding: 7px;
+    border-radius: 30px;
+    font-size: 16px;
+  }
